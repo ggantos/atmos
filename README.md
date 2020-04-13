@@ -31,18 +31,19 @@ Finally, I went to the file I should have used from the beginning, *Measurement_
 
 ## Modeling
 
-
+Starting with the very simplest of inputs, I attempted to predict a single hour in time further after being given the past 20 hours as input. I ran the model for both CO and SO2 and the model is constructed very simply of an LSTM layer and a Dense single output layer.
 
 
 ---
 
-## Potential questions that could be asked of this data and machine learning
+## Future questions that could be answered with this data
 
 * can we predict future timeseries via historical timeseries?
 * can we predict the instrument status?
     - all non-normal vs normal (excluding negative values)
     - 3-6 classes
 * can we cluster neighborhoods in Seoul via their pollutants?
+* can we predict values by station or with all stations at one time?
 
 
 ---
