@@ -2,4 +2,5 @@
 ds
 notebooks/.ipynb_checkpoints/
 src/__pycache__/
+*.pkl
 

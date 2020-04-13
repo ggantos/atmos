@@ -26,8 +26,13 @@ The data consists of hourly measurements of six pollutants surrounding Seoul for
 
 The original data is compressed small enough to be stored in this repo at `src/data/raw/raw_data.tar.gz`.
 
-For every observation there exists a cooresponding instrument status code: 0: Normal, 1: Need for calibration, 2: Abnormal
-4: Power cut off, 8: Under repair, 9: abnormal data.
+For every observation there exists a cooresponding instrument status code:
+ * 0: Normal
+ * 1: Need for calibration
+ * 2: Abnormal
+ * 4: Power cut off
+ * 8: Under repair
+ * 9: abnormal data.
 
 ---
 
