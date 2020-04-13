@@ -7,7 +7,20 @@ Exploratory data analysis and machine learning on a freely available atmospheric
 ## Getting Started
 
 1. In your environment, install via `pip install requirements.txt` 
-2. Un-tar the `raw_data.tar.gz` located in data/raw via the following command `tar -xzf raw_data.tar.gz --strip 1`
+2. Un-tar the `raw_data.tar.gz` located in data/raw via the following command `tar -xzf raw_data.tar.gz --strip 1`. Your directory structure should end up looking like:
+    ```
+    data   
+    │
+    └───raw
+        │   Measurement_summary.csv
+        │
+        └───original
+            │   Measurement_info.csv
+            │   Measurement_item_info.csv
+            │   Measurement_station_info.csv
+
+    ```
+
 3. Run the Jupyter Notebooks in the following order
     - explore_data_summary.ipynb
     - explore_data_original.ipynb
@@ -77,4 +90,4 @@ Starting with the very simplest of inputs, I attempted to predict a single hour 
 
 ## Acknowledgments
 
-* Work in modelling notebooks heavily based off of: https://www.tensorflow.org/tutorials/structured_data/time_series#part_1_forecast_a_univariate_time_series
+* Timeseries analysis based on: https://www.tensorflow.org/tutorials/structured_data/time_series#part_1_forecast_a_univariate_time_series
