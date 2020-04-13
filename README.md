@@ -4,6 +4,20 @@ Exploratory data analysis and machine learning on a freely available atmospheric
 
 ---
 
+## Getting Started
+
+1. In your environment, install via `pip install requirements.txt` 
+2. Un-tar the `raw_data.tar.gz` located in data/raw via the following command `tar -xzf raw_data.tar.gz --strip 1`
+3. Run the Jupyter Notebooks in the following order
+    - explore_data_summary.ipynb
+    - explore_data_original.ipynb
+    - explore_data_masks.ipynb (optional, didn't turn into a worthwhile nb)
+    - explore_data_by_pollutants.ipynb
+    - model_timeseries_single.ipynb
+    - model_comparisons.ipynb
+
+---
+
 ## Data
 
 A few different datasets were examined for use in this project. After examining the various sources, I chose to use data uploaded to Kaggle on March 29, 2020.
